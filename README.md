@@ -4,6 +4,8 @@
 
 Define tasks to deliver new features.
 
+This repository is an implementation in web components of Ryan Singer's [Systemizing kick-off](https://world.hey.com/rjs/15-systemizing-kick-off-c05bbbf2) article.
+
 ## Quickstart
 
 ```shell
