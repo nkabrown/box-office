@@ -1,12 +1,14 @@
 {
   "devDependencies": {
+    "@web/dev-server": "^0.1.32",
     "eslint": "^8.19.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "wds --node-resolve --open src/ --watch"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",

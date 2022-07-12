@@ -16,6 +16,9 @@ npm install
 
 # enable Git pre-commit hook
 npm run prepare
+
+# run local development server
+npm run start
 ```
 
 ## Supporting Documentation
@@ -23,3 +26,4 @@ npm run prepare
 **Development Dependencies**
 
 - [lint-staged](https://github.com/okonet/lint-staged) - execute scripts on staged files via git pre-commit hook
+- [web-dev-server](https://modern-web.dev/docs/dev-server/overview/) - buildless development server
