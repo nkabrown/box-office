@@ -1,6 +1,8 @@
 {
   "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
     "@web/dev-server": "^0.1.32",
+    "@web/test-runner": "^0.13.31",
     "eslint": "^8.19.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
@@ -8,7 +10,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "start": "wds --node-resolve --open src/ --watch"
+    "start": "wds --node-resolve --open src/ --watch",
+    "test": "wtr test/**/*.js --node-resolve"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",

@@ -27,3 +27,5 @@ npm run start
 
 - [lint-staged](https://github.com/okonet/lint-staged) - execute scripts on staged files via git pre-commit hook
 - [web-dev-server](https://modern-web.dev/docs/dev-server/overview/) - buildless development server
+- [web-test-runner](https://modern-web.dev/docs/test-runner/overview/) - test runner for web applications
+- [chai](https://www.chaijs.com/) - make testing assertions

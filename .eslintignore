@@ -1,2 +1,5 @@
 # ignore JS dependencies
 node_modules/
+
+# ignore test files
+test/
