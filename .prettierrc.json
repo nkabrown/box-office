@@ -2,7 +2,7 @@
   "singleQuote": true,
   "overrides": [
     {
-      "files": ["*.json", "*.css", "*.html"],
+      "files": ["*.json", "*.css", "*.html", "*.yaml", "*.yml"],
       "options": {
         "singleQuote": false
       }
