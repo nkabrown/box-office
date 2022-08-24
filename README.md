@@ -30,3 +30,7 @@ npm run start
 -   [prettier](https://prettier.io) - low configuration opinionated code formatter
 -   [web-dev-server](https://modern-web.dev/docs/dev-server/overview/) - buildless development server
 -   [web-test-runner](https://modern-web.dev/docs/test-runner/overview/) - test runner for web applications
+
+**Dependencies**
+
+-   [Lit](https://lit.dev) - web component template rendering library

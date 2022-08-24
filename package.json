@@ -17,5 +17,8 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,json,md}": "prettier --write"
+  },
+  "dependencies": {
+    "lit": "^2.3.1"
   }
 }
