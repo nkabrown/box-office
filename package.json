@@ -24,7 +24,7 @@
     "test": "wtr test/**/*.js --node-resolve"
   },
   "lint-staged": {
-    "*.{js,mjs,ts}": [
+    "*.{js,mjs,ts,html}": [
       "prettier --write",
       "eslint --fix"
     ],
