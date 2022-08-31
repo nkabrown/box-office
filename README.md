@@ -34,3 +34,5 @@ npm run start
 **Dependencies**
 
 -   [Lit](https://lit.dev) - web component template rendering library
+
+For an ever-developing account of why I make the decisions I make see my [engineering philosophy statement](https://github.com/nkabrown/truckers-atlas/blob/main/engineering-mindset.md).
