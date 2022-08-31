@@ -13,13 +13,22 @@
     "prettier": "^2.7.1"
   },
   "scripts": {
+    "format": "npm run format:prettier && npm run format:eslint",
+    "format:eslint": "eslint \"**/*.{js,mjs,ts,html}\" --fix",
+    "format:prettier": "prettier --write .",
+    "lint": "npm run lint:eslint & npm run lint:prettier",
+    "lint:eslint": "eslint \"**/*.{js,mjs,ts,html}\"",
+    "lint:prettier": "prettier --check .",
     "prepare": "husky install",
     "start": "wds --node-resolve --open src/ --watch",
     "test": "wtr test/**/*.js --node-resolve"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,json,md}": "prettier --write"
+    "*.{js,mjs,ts}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{css,json,md,yml}": "prettier --write"
   },
   "dependencies": {
     "lit": "^2.3.1"

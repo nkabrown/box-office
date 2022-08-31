@@ -1,8 +1,8 @@
 overrides:
   - files:
-    - "*.js"
-    - "*.mjs"
-    - "*.ts"
+      - "*.js"
+      - "*.mjs"
+      - "*.ts"
     options:
       singleQuote: true
   - files: "*.md"
