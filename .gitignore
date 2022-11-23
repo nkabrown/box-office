@@ -4,5 +4,11 @@
 # ignore JS dependencies
 node_modules/
 
-#ignore ESLint cache
+# ignore ESLint cache
 .eslintcache
+
+# ignore compiled and copied dev files
+lib/
+
+# ignore Wireit cache and data
+.wireit/
