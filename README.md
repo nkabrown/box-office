@@ -13,7 +13,7 @@ This repository is an implementation in web components of Ryan Singer's [Systemi
 npm --version
 
 # install exact dependencies and set up git hooks
-npm install
+npm ci
 
 # start watchers for file changes and run buildless development server
 npm run dev
