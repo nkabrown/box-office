@@ -47,3 +47,14 @@ npm run dev
 -   [Lit](https://lit.dev) - web component template rendering library
 
 For an ever-developing account of why I make the decisions I make see my [engineering philosophy statement](https://github.com/nkabrown/truckers-atlas/blob/main/engineering-mindset.md).
+
+## Updating Dependencies
+
+Regularly updating dependencies and dev dependencies is very beneficial for long lasting codebases.
+
+-   Run `npm outdated` to list dependencies in need of review.
+-   Review release notes and/or change logs for list of dependencies with new updates.
+    -   Is there new functionality this codebase can use?
+    -   Do changes need to be made to upgrade?
+    -   Are any problematic issues associated with these changes?
+-   Run `npx browserslist-lint` to update `caniuse-lite` database.
