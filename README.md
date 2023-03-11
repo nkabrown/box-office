@@ -21,6 +21,10 @@ npm run dev
 
 ## Supporting Documentation
 
+**Dependencies**
+
+-   [Lit](https://lit.dev) - web component template rendering library
+
 **Development Dependencies**
 
 -   [browserslist](https://github.com/browserslist/browserslist) - targeted browser list for tooling
@@ -36,15 +40,19 @@ npm run dev
 -   [husky](https://github.com/typicode/husky) - easily setup git hooks
 -   [lint-staged](https://github.com/okonet/lint-staged) - execute scripts on staged files via git pre-commit hook
 -   [prettier](https://prettier.io) - low configuration opinionated code formatter
+-   [rollup](https://rollupjs.org/) - tree-shaking ES6 module bundler for JavaScript
+-   [rollup-plugin-copy](https://github.com/vladshcherbin/rollup-plugin-copy) - copy files and directories for distribution
+-   [rollup-plugin-delete](https://github.com/vladshcherbin/rollup-plugin-delete) - delete files and directories of old distribution
+-   [rollup-plugin-html-literals](https://github.com/jleeson/rollup-plugin-html-literals) - minify html and css template literals in bundle
+-   [@rollup/plugin-node-resolve](https://github.com/rollup/plugins/tree/master/packages/node-resolve) - resolve paths to node modules in bundle
+-   [rollup-plugin-scss-lit](https://github.com/prantlf/rollup-plugin-scss-lit) - import Sass files as constructable stylesheets in bundle
+-   [rollup-plugin-summary](https://yousifalraheem.github.io/rollup-plugin-summary/) - summarizes size of rollup build output
+-   [@rollup/plugin-terser](https://github.com/rollup/plugins/tree/master/packages/terser) - parse, mangle, and minify JS with terser in bundle
 -   [TypeScript](https://www.typescriptlang.org/) - strongly typed superset of JavaScript that compiles down to working JavaScript
 -   [typescript-lit-html-plugin](https://github.com/microsoft/typescript-lit-html-plugin) - adds intelliSense to VS Code for Lit TypeScript projects
 -   [web-dev-server](https://modern-web.dev/docs/dev-server/overview/) - buildless development server
 -   [web-test-runner](https://modern-web.dev/docs/test-runner/overview/) - test runner for web applications
 -   [wireit](https://github.com/google/wireit) - additional performance and control for npm scripts
-
-**Dependencies**
-
--   [Lit](https://lit.dev) - web component template rendering library
 
 For an ever-developing account of why I make the decisions I make see my [engineering philosophy statement](https://github.com/nkabrown/truckers-atlas/blob/main/engineering-mindset.md).
 
