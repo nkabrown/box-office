@@ -7,6 +7,8 @@ import template from 'rollup-plugin-html-literals';
 import terser from '@rollup/plugin-terser';
 
 export default {
+  // log the first side effect found per file to console
+  // experimentalLogSideEffects: true,
   input: ['./lib/index.js'],
   preserveEntrySignatures: false,
   output: {
