@@ -12,3 +12,6 @@ lib/
 
 # ignore Wireit cache and data
 .wireit/
+
+# ignore app bundle
+dist/
