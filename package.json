@@ -21,7 +21,7 @@
     "eslint-plugin-lit": "^1.8.2",
     "eslint-plugin-wc": "^1.4.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.0",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.4",
     "rollup": "^3.19.1",
     "rollup-plugin-copy": "^3.4.0",
